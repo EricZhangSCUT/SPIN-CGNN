@@ -2,7 +2,7 @@
 
 from data_preprocess import from_pdb, append_cgraph, aa_decode
 from model import SPIN_CGNN
-from data import preprocess
+from cath_data import preprocess
 import torch
 import argparse
 import pathlib
@@ -47,7 +47,7 @@ def load_model(exp_name):
         n_virtual_atoms=n_virtual_atoms,
     ).to(default_device)
     
-    state_dict = torch.load(f'../experiment/{exp_name}/best_model.pth')
+    state_dict = torch.load(f'../model/{exp_name}.pth')
     model.load_state_dict(state_dict)
     print(f'Load Model from: {exp_name}')
     print(f'Locate Model on: {default_device}')
