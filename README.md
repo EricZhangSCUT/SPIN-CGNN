@@ -10,12 +10,17 @@ This repository contains codes and pre-trained weight for SPIN-CGNN and correspo
 If you find our work useful in your research or if you use parts of this code please consider citing our paper:
 
 ```
-@article {Zhang2023.07.07.548080,
-	title = {SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network},
-	author = {Xing Zhang and Hongmei Yin and Fei Ling and Jian Zhan and Yaoqi Zhou},
-	year = {2023},
-	doi = {10.1101/2023.07.07.548080},
-	journal = {bioRxiv},
-  publisher={Cold Spring Harbor Laboratory}
+@article{Zhang2023SPINCGNN,
+  title={SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network},
+  author={Zhang, Xing and Yin, Hongmei and Ling, Fei and Zhan, Jian and Zhou, Yaoqi},
+  journal={PLoS Comput Biol},
+  volume={19},
+  number={12},
+  pages={e1011330},
+  year={2023},
+  publisher={Public Library of Science},
+  doi={10.1371/journal.pcbi.1011330},
+  url={https://doi.org/10.1371/journal.pcbi.1011330}
 }
+
 ```
